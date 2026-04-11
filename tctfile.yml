@@ -73,16 +73,15 @@ DATABASE:
   BUSY_TIMEOUT_MS: 15000
 
 
-# ------------------------------------------------------------------------------
-# WEB DASHBOARD
-# Settings for the bot's web management interface.
-# ------------------------------------------------------------------------------
+# ==============================================================================
+# DEPRECATED: No longer used in newer versions
+#            Kept for backward compatibility with older versions
+# ==============================================================================
 DASHBOARD:
   ENABLED: false
   # IMPORTANT: Change these default credentials before deploying to production!
   USER: "admin"
   PASSWORD: "tct-99"
-
 
 # ------------------------------------------------------------------------------
 # CLOUDINARY INTEGRATION

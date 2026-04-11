@@ -1,7 +1,7 @@
 version: "1"
 services:
   - type: web
-    name: Random-5542891837
+    name: R-55627
     runtime: docker
     plan: free
     region: virginia
@@ -16,9 +16,4 @@ services:
         sync: false
       - key: PREFIX
         sync: false
-      - key: DASHBOARD_USER
-        sync: false
-      - key: DASHBOARD_PASS
-        sync: false
-      - key: server_port
-        value: "3010"
+
