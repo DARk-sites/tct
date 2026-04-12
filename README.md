@@ -157,6 +157,40 @@ bash <(curl -sL https://t-ct.org/dl/termux)
 
 ---
 
+# Feed Plugin
+
+This plugin adds feed functionality to your T-CT setup.
+
+## Requirements
+
+- T-CT version **0.4.4 or higher**
+- Older versions will **NOT** support custom plugins
+
+## Installation
+
+1. Download or place the plugin inside your plugins folder.
+2. Restart your T-CT instance or wait for the bot to pick automaticaly.
+
+## Custom Plugins (.lua)
+
+You can now create and use your own custom `.lua` plugins 🎉
+
+👉 To learn how to:
+- Create plugins
+- Structure `.lua` files
+- Register and use them
+
+**Please read the official documentation:**
+
+- https://t-ct.org/docs/plugins
+
+## Notes
+
+- Only versions **0.4.4+** support custom `.lua` plugins
+- Make sure your plugin follows the correct structure from the docs
+
+---
+
 # 💬 Support
 
 [![Telegram Support](https://img.shields.io/badge/Telegram-Support-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/TheCarlTech)
