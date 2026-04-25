@@ -1,6 +1,7 @@
 version: "1"
 services:
   - type: web
+    name: tct-0.0.0
     runtime: docker
     plan: free
     region: virginia
